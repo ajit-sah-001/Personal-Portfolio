@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ajit's senior-level portfolio showcasing expertise in cybersecurity, full-stack development, and system programming." />
+  <meta name="keywords" content="Ajit, cybersecurity, full-stack, Python, C++, JavaScript, portfolio" />
+  <meta name="author" content="Ajit" />
+  <title>Ajit |Cybersecurity & Full-Stack Engineer Dream CTO</title>
+  <link rel="icon" type="image/png" href="SirTissun.png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container navbar__inner">
+      <a class="navbar__brand" href="index.html">Ajit</a>
+      <button class="navbar__toggler" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="navbar__menu">
+        <a class="navbar__link" href="#skills">Skills</a>
+        <a class="navbar__link" href="#projects">Projects</a>
+        <a class="navbar__link" href="#study">Study</a>
+        <a class="navbar__link" href="#snippets">Snippets</a>
+        <a class="navbar__link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__matrix"></div>
+    <div class="container">
+      <img class="hero__avatar" src="my.jpg"
+        alt="Ajit's profile picture" loading="lazy" />
+      <h1 class="hero__title">
+        <span>A</span><span>j</span><span>i</span><span>t</span>    <span>K</span><span>u</span><span>m</span><span>a</span><span>r</span>
+      </h1>
+      <div class="hero__subtitle"></div>
+      <div class="hero__actions">
+        <a href="tel:+917808982006" class="btn btn--primary">Hire Me</a>
+        <a href="Ajit_Kumar_Resume.pdf" class="btn btn--outline" download>Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">Skills</h2>
+      <div class="skills__grid">
+        <div class="skill-item animate-on-scroll">
+          <h3 class="skill-item__title">C</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--progress-width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <h3 class="skill-item__title">Python</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--progress-width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <h3 class="skill-item__title">JavaScript</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--progress-width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-item animate-on-scroll">
+          <h3 class="skill-item__title">Cybersecurity Dream</h3>
+          <div class="progress">
+            <div class="progress__bar" style="--progress-width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">Projects</h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+      </div>
+      <div class="projects__grid">
+        <div class="project-card animate-on-scroll" data-category="web" data-modal="modal1">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=To-Do+List" alt="To-Do List"
+            loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">To-Do List</h3>
+            <p class="project-card__text">Productivity app with task management and local storage.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll" data-category="web" data-modal="modal2">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=Weather+App" alt="Weather App"
+            loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">Weather App</h3>
+            <p class="project-card__text">Real-time weather updates using OpenWeather API.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll" data-category="web" data-modal="modal3">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=QR+Code+Generator"
+            alt="QR Code Generator" loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">QR Code Generator</h3>
+            <p class="project-card__text">Tool to create QR codes for URLs or text.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll" data-category="cybersecurity" data-modal="modal4">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=Network+Scanner"
+            alt="Network Scanner" loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">Network Scanner</h3>
+            <p class="project-card__text">Python tool to scan networks for vulnerabilities.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll" data-category="web" data-modal="modal5">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=Notes+App" alt="Notes App"
+            loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">Notes App</h3>
+            <p class="project-card__text">A simple and elegant notes app using local storage.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll" data-category="web" data-modal="modal6">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=Snake+Game" alt="Snake Game"
+            loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">Snake Game (Web)</h3>
+            <p class="project-card__text">Classic snake game developed using HTML, CSS, and JS.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll" data-category="web" data-modal="modal7">
+          <img class="project-card__image" src="https://via.placeholder.com/350x200?text=Snake+Game" alt="Snake Game"
+            loading="lazy" />
+          <div class="project-card__body">
+            <h3 class="project-card__title">personal portfolio</h3>
+            <p class="project-card__text">Classic personal portfolio developed using HTML, CSS, and JS.</p>
+            <button class="btn btn--primary btn--sm">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modals -->
+  <div class="modal" id="modal1">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">To-Do List</h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="todo.png" alt="To-Do List screenshot" loading="lazy" />
+        <p>A dynamic to-do list app with task categorization and local storage.</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+        <p><strong>Features:</strong> Add/delete tasks, mark as complete, responsive design</p>
+        <a href="https://github.com/ajit-sah-001/Todo-List" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal2">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">Weather App</h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="Weather.png" alt="Weather App screenshot" loading="lazy" />
+        <p>Responsive app fetching real-time weather data with dynamic backgrounds.</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, OpenWeather API</p>
+        <p><strong>Features:</strong> Location-based weather, 5-day forecast</p>
+        <a href="https://github.com/ajit-sah-001/Weather-App" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal3">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">QR Code Generator</h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="qrgen.png" alt="QR Code Generator screenshot" loading="lazy" />
+        <p>Web tool to create downloadable QR codes with customization options.</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+        <p><strong>Features:</strong> Custom QR sizes, color options</p>
+        <a href="https://github.com/ajit-sah-001/QR-CODE-GENERATER" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal4">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">Network Scanner</h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="https://via.placeholder.com/700x400?text=Network+Scanner"
+          alt="Network Scanner screenshot" loading="lazy" />
+        <p>Python tool to scan networks, detect devices, and identify open ports.</p>
+        <p><strong>Tech Stack:</strong> Python, Scapy</p>
+        <p><strong>Features:</strong> Port scanning, device discovery</p>
+        <a href="https://github.com/ajit-sah-001" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal5">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">Notes App</h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="NoteApp.png" alt="Notes App screenshot" loading="lazy" />
+        <p>A simple and elegant notes app that allows users to create, edit, and delete notes, with data saved in local
+          storage.</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+        <p><strong>Features:</strong> Create/edit/delete notes, persistent storage, responsive design</p>
+        <a href="https://github.com/ajit-sah-001/Note-App" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal6">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">Snake Game (Web)</h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="Snake.png" alt="Snake Game screenshot" loading="lazy" />
+        <p>A classic snake game where players control a snake to eat food and grow, built with a focus on smooth
+          gameplay.</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, Canvas API</p>
+        <p><strong>Features:</strong> Score tracking, collision detection, mobile-friendly controls</p>
+        <a href="https://github.com/ajit-sah-001/Snake-Game" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal7">
+    <div class="modal__content">
+      <div class="modal__header">
+        <h3 class="modal__title">personal portfolio </h3>
+        <button class="modal__close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal__body">
+        <img class="modal__image" src="personal-portfolio.png" alt="Snake Game screenshot" loading="lazy" />
+        <p>A classic personal portfolio using Html css and js .</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, Canvas API</p>
+        <p><strong>Features:</strong> Score tracking, collision detection, mobile-friendly controls</p>
+        <a href="https://github.com/ajit-sah-001/Personal-Portfolio" class="btn btn--outline btn--sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Study -->
+  <section id="study" class="study section">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">My Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item animate-on-scroll">
+          <h3 class="timeline-item__title">2025-2028</h3>
+          <p>Mastered C++ and tackled data structures/algorithms.</p>
+        </div>
+        <div class="timeline-item animate-on-scroll">
+          <h3 class="timeline-item__title">2025-2028</h3>
+          <p>Learned Python, built automation scripts, started ethical hacking.</p>
+        </div>
+        <div class="timeline-item animate-on-scroll">
+          <h3 class="timeline-item__title">2025-2026</h3>
+          <p>Developed full-stack web apps and explored cloud security.</p>
+        </div>
+        <div class="timeline-item animate-on-scroll">
+          <h3 class="timeline-item__title">2025-2028</h3>
+          <p>Pursuing CEH/OSCP certifications and building security tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Snippets -->
+  <section id="snippets" class="snippets section">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">Code Snippets</h2>
+      <div class="snippet-card animate-on-scroll">
+        <h3 class="snippet-card__title"> Use Python Make Contact Book </h3>
+        <pre><code>
+          import json
+file_name = 'contacts_book.json'
+def load_contacts():
+    try:
+        with open(file_name,'r') as cf:
+            all_contacts = json.load(cf)
+    except FileNotFoundError:
+        all_contacts = {}
+    return all_contacts
+
+def save_contact(contacts):
+    with open(file_name, 'w') as cf:
+        json.dump(contacts, cf, indent=4)
+
+def add_contact(contacts):
+    name = input("Enter Name: ")
+    mobile = input("Enter Mobile number: ")
+    email = input("Enter email (optional): ")
+    address = input("Enter address (optional): ")
+    contacts[name] = {
+        "mobile": mobile,
+        "email": email,
+        "address": address
+    }
+    print(f"Contact {name} successfully added!")
+
+def search_contact(contacts):
+    user_input = input("Enter the contact name: ").lower()
+    found = False
+    for name, info in contacts.items():
+        if user_input in name.lower():
+            print(f"-------{name}-----")
+            print(f"Mobile: {info['mobile']}")
+            print(f"Email: {info['email']}")
+            print(f"Address: {info['address']}")
+            print("--------------------")
+            found = True
+    if not found:
+        print(f"No Contact Found with {user_input}")
+
+
+def delete_contact(contacts):
+    delete_name = input("Enter Contact Name to Delete:")
+    if delete_name in contacts:
+        del contacts[delete_name]
+        save_contact(contacts)
+        print(f"Contact {delete_name} successfully deleted!")
+    else:
+        print(f"No contact found with {delete_name}")
+
+
+def view_all(contacts):
+    for name, info in contacts.items():
+        print(f"Name: {name} , Mobile: {info['mobile']}")
+
+
+def hamara_func():
+    contacts = load_contacts()
+    while True:
+        print("----------------Contact Book Choice List------------")
+        print("1. View All Contacts")
+        print("2. Add New Contact")
+        print("3. Search Contact")
+        print("4. Delete Contact")
+        print("5. Exit")
+        print("----------------Choose desired option------------")
+        choise = int(input("Enter the Choise Number: "))
+
+        if choise == 1:
+            print('------------view all contacts---------')
+            view_all(contacts)
+            print('--------------------------------------')
+        elif choise == 2:
+            print('------------Add New contacts---------')
+            add_contact(contacts)
+            save_contact(contacts)
+            print('--------------------------------------')
+        elif choise == 3:
+            print('search')
+            search_contact(contacts)
+        elif choise == 4:
+            print('delete')
+            delete_contact(contacts)
+        elif choise == 5:
+            print('---------------Bye Bye-----------------')
+            break
+        else:
+            print('Invalid Input')
+
+if __name__ == '__main__':
+    hamara_func()
+
+        </code></pre>
+      </div>
+      <div class="snippet-card animate-on-scroll">
+        <h3 class="snippet-card__title">Only for Fun 😄</h3>
+        <pre><code> function always() {
+          console.log("✅ Always Happy 😄");
+        }
+        
+        // Call  function
+        always();
+
+        </code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section__title animate-on-scroll">Contact Me</h2>
+      <form class="contact__form animate-on-scroll">
+        <div class="form__group">
+          <input type="text" class="form__input" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="form__group">
+          <input type="email" class="form__input" id="email" placeholder="Your Email" required />
+        </div>
+        <div class="form__group">
+          <textarea class="form__input form__input--textarea" id="message" placeholder="Your Message"
+            required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Ajit |  Cybersecurity & Full-Stack Engineer And CTO Dream </p>
+      <div class="footer__social">
+        <a href="https://github.com/ajit-sah-001" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ajit-k-0b9b46288/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="ajitk23192@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/juniorcoder01/" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100063582983281" aria-label="FaceBook"><i class="fa-brands fa-facebook"></i></i></a>
+        <a href="https://www.threads.net/@juniorcoder01" aria-label="threads"><i class="fa-brands fa-threads"></i></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
